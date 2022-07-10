@@ -1,0 +1,78 @@
+﻿@media only screen and (max-width:1024px) {
+
+    /*Top Header*/
+    .brand {
+        margin-left: 40px;
+    }
+
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .header-btns {
+        display: none;
+    }
+
+    .nav-toggler {
+        display: block;
+    }
+
+    .navbar {
+        height: 0px;
+        max-height: 500px;
+        width: 100%;
+    }
+
+    .nav-menu{
+        padding:10px;
+    }
+
+    .nav-menu .menu-list {
+        width: 100%;
+        padding: 15px 0px;
+        flex-direction: column;
+    }
+
+        .nav-menu .menu-list .list-items {
+            margin: 0;
+            display: block;
+        }
+
+            .nav-menu .menu-list .list-items a {
+                padding: 6px 10px;
+            }
+
+                .nav-menu .menu-list .list-items a:hover {
+                    background-color: rgb(0, 0, 0);
+                }
+
+
+ /*Main*/
+
+ .main-wrapper {
+        margin-top: 75px;
+ }
+
+ .main, .timings{
+     height:50vh;
+ }
+
+ /*Timings*/
+
+ .t-row{
+     flex-direction:column;
+ }
+
+    /*Our Goal*/
+    .our-goal{
+        height:30vh;
+    }
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-box {
+        width: 80% !important;
+    }
+}
+
